@@ -1,14 +1,46 @@
+/* Color Scheme */
+/*
+
+Red: #fb051c
+Yellow: 
+White: #fff
+Black: #333
+
+*/
+
 .navbar {
     background: #fb051c;
+    box-shadow: 0 0 2px #E3E3E3;
+}
+
+.navbar > a:hover {
+    color: 	#E3E3E3;
 }
 
 .navbar-brand {
     color: #fff;
+    font-family: 'Kirang Haerang', cursive;
+    font-size: 2rem;
+    letter-spacing: 8px;
+    font-weight: 700;
 }
 
 .navbar-toggler {
     border: 2px solid #fff;
     padding: .5rem .5rem;
+}
+
+.search-btn {
+    color: #333;
+    border: 1px solid #ced4da;
+}
+
+.search-btn:hover {
+    background: #E3E3E3;
+}
+
+.page_container {
+    margin-top: 1px;
 }
 
 #map {
