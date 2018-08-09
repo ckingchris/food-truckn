@@ -11,6 +11,7 @@ Black: #333
 .navbar {
     background: #fb051c;
     box-shadow: 0 0 2px #E3E3E3;
+    padding: 0rem 2rem;
 }
 
 .navbar > a:hover {
