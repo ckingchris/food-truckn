@@ -7,10 +7,13 @@ White: #fff
 Black: #333
 
 */
+body {
+    background: #333;
+}
 
 .navbar {
     background: #fb051c;
-    box-shadow: 0 0 2px #E3E3E3;
+    box-shadow: 0 0 4px #E3E3E3;
     padding: 0rem 2rem;
 }
 
@@ -31,6 +34,10 @@ Black: #333
     padding: .5rem .5rem;
 }
 
+.fa-bars {
+    color: #fff;
+}
+
 .search-btn {
     color: #333;
     border: 1px solid #ced4da;
@@ -40,8 +47,12 @@ Black: #333
     background: #E3E3E3;
 }
 
-.page_container {
-    margin-top: 1px;
+.mr-sm-2 {
+    margin-right: 2.5rem !important;
+}
+
+.page-shadow {
+    box-shadow: 0 0 4px #e3e3e3;
 }
 
 #map {
@@ -51,8 +62,16 @@ Black: #333
 
 .list-rows {
     max-height: 700px;
+    height: 100%;
+    overflow-y: scroll;
+    padding: 10px;
+    background: #fff;
 }
 
-.fa-bars {
-    color: #fff;
+.trucks {
+    margin: 40px 0;
+}
+
+.no-padding {
+    padding: 0;
 }
