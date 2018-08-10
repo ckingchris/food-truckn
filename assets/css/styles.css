@@ -14,7 +14,11 @@ body {
 .navbar {
     background: #fb051c;
     box-shadow: 0 0 4px #E3E3E3;
-    padding: 0rem 2rem;
+    padding: 0;
+}
+
+.nav-padding {
+    padding: 0rem 1.5rem;
 }
 
 .navbar > a:hover {
@@ -27,15 +31,24 @@ body {
     font-size: 2rem;
     letter-spacing: 8px;
     font-weight: 700;
+    margin-left: 1.5rem;
 }
 
 .navbar-toggler {
     border: 2px solid #fff;
     padding: .5rem .5rem;
+    margin-right: 1.5rem;
+}
+
+.navbar-collapse {
+    z-index: 999999;
+    background: rgba(251,5,28,0.9);
+    padding: 0 1.5rem;
 }
 
 .fa-bars {
     color: #fff;
+    width: 25px;
 }
 
 .search-btn {
@@ -47,8 +60,17 @@ body {
     background: #E3E3E3;
 }
 
-.mr-sm-2 {
-    margin-right: 2.5rem !important;
+@media only screen and (min-width: 991px) {
+    .search-input {
+        margin-right: 1.5rem;
+    }
+}
+
+.page_container {
+    position: fixed;
+    height: calc(100vh - 100px);
+    width: 100vw;
+    top: 58px;
 }
 
 .page-shadow {
