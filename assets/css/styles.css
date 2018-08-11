@@ -90,10 +90,6 @@ body {
     background: #fff;
 }
 
-.trucks {
-    margin: 20px 0;
-}
-
 .no-padding {
     padding: 0;
 }
@@ -143,4 +139,22 @@ body {
 p {
     margin-bottom: .5rem;
     padding-left: 1rem;
+}
+
+.bold {
+    font-weight: 500;
+}
+
+.trucks {
+    /* margin: 20px 0; */
+}
+
+.truck-row-border {
+    padding: 20px 0;
+    border-bottom: solid 1px #e3e3e3;
+}
+
+.truck-row-border-last {
+    padding: 20px 0;
+    border: none;
 }
