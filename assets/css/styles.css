@@ -91,7 +91,7 @@ body {
 }
 
 .trucks {
-    margin: 40px 0;
+    margin: 20px 0;
 }
 
 .no-padding {
@@ -133,4 +133,14 @@ body {
     height: 50px;
     border-radius: 50%;
     cursor: pointer;
+}
+
+.food-truck-icons {
+    width: 100px;
+    margin-left: 2rem;
+}
+
+p {
+    margin-bottom: .5rem;
+    padding-left: 1rem;
 }
