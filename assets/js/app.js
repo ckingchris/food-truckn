@@ -3,7 +3,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiY2tpbmd3ZWJkZXNpZ24iLCJhIjoiY2prbmtlMjFpMDRxb
 var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/streets-v9',
-    zoom: 8,
+    zoom: 12,
     center: [-122.431297, 37.773972]
 });
 
@@ -17,11 +17,33 @@ var geojson = {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [-77.032, 38.913]
+        coordinates: [-122.407, 37.788]
       },
       properties: {
         title: 'Mapbox',
-        description: 'Washington, D.C.'
+        description: 'Union Square'
+      }
+    },
+    {
+      type: 'Feature',
+      geometry: {
+        type: 'Point',
+        coordinates: [-122.389, 37.778]
+      },
+      properties: {
+        title: 'Mapbox',
+        description: 'AT&T Park'
+      }
+    },
+    {
+      type: 'Feature',
+      geometry: {
+        type: 'Point',
+        coordinates: [-122.410, 37.806]
+      },
+      properties: {
+        title: 'Mapbox',
+        description: 'North Beach'
       }
     },
     {
@@ -32,7 +54,7 @@ var geojson = {
       },
       properties: {
         title: 'Mapbox',
-        description: 'San Francisco, California'
+        description: 'San Francisco Center'
       }
     }]
 };
